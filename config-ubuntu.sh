@@ -13,5 +13,5 @@ do
 #  curl "$dl_url$dl_file" -O
   echo "$dl_url$dl_file" -O
 done
-cd ..
-rm -rf ~/temp
+#cd ..
+#rm -rf ~/temp
