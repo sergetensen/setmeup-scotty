@@ -10,8 +10,8 @@ chmod 700 ~/temp
 cd ~/temp
 for dl_file in "${dl_files[@]}"
 do
-#  curl "$dl_url$dl_file" -O
   echo "$dl_url$dl_file" -O
+  curl "$dl_url$dl_file" -O
 done
 #cd ..
 #rm -rf ~/temp
