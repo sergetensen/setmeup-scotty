@@ -22,5 +22,5 @@ done
 if [[ "$remove_temp" == yes ]]; then
   #cd ..
   #rm -rf ~/temp
-  echo "~/temp" should be removed."
+  echo "~/temp should be removed."
 fi
