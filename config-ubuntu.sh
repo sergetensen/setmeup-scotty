@@ -19,7 +19,7 @@ do
   curl "$dl_url$dl_file" -O
 done
 
-if $remove_temp="yes"; then
+if [ $remove_temp="yes" ]; then
 #  cd ..
 #  rm -rf ~/temp
 fi
