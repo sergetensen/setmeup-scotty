@@ -5,7 +5,7 @@ set -e
 dl_url="https://raw.githubusercontent.com/sergetensen/setmeup-scotty/main/"
 dl_files=( authorized_keys tmux.conf 10_sshd_policy.conf )
 
-if [ ! -d "~/temp" ]; then
+if [ ! -d ~/temp ]; then
   mkdir ~/temp
   chmod 700 ~/temp
   remove_temp="yes"
@@ -20,6 +20,7 @@ do
 done
 
 if [[ "$remove_temp" == yes ]]; then
-#  cd ..
-#  rm -rf ~/temp
+  #cd ..
+  #rm -rf ~/temp
+  echo "~/temp" should be removed."
 fi
