@@ -2,7 +2,7 @@
 
 set -e 
 
-dl_url="https://raw.githubusercontent.com/sergetensen/setmeup-scotty/main/files"
+dl_url="https://raw.githubusercontent.com/sergetensen/setmeup-scotty/main/files/"
 dl_files=( authorized_keys tmux.conf 10_sshd_policy.conf )
 
 if [ ! -d ~/temp ]; then
